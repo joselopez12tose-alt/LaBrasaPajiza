@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Brasa Pajiza</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+   
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="flex h-20 items-center justify-between">
+          <!-- Logo -->
+
+          <a href="#inicio"
+   class="flex items-center hover:scale-105 transition duration-300">
+
+    <img
+        src="imagenes/logo/logo-navbar.png"
+        alt="La Brasa Pajiza 1618"
+        class="h-16 lg:h-20 w-auto">
+
+</a>
+
+          <!-- Menú -->
+
+          <div class="hidden items-center gap-8 font-medium lg:flex">
+            <a href="#inicio" class="transition hover:text-yellow-400"> Inicio </a>
+
+            <a href="#nosotros" class="transition hover:text-yellow-400"> Nosotros </a>
+
+            <a href="#menu" class="transition hover:text-yellow-400"> Menú </a>
+
+            <a href="#galeria" class="transition hover:text-yellow-400"> Galería </a>
+
+            <a href="#contacto" class="transition hover:text-yellow-400"> Contacto </a>
+          </div>
+
+          <!-- Botón -->
+
+          <a href="https://wa.me/50488788753" target="_blank" class="hidden rounded-full bg-green-600 px-6 py-3 font-bold transition hover:bg-green-700 lg:flex"> Pedir Ahora </a>
+          <!-- Botón menú móvil -->
+
+          <button id="menu-btn" class="text-3xl text-white transition hover:text-yellow-400 lg:hidden">☰</button>
+        </div>
+      </div>
+      <!-- Menú móvil -->
+
+<div id="mobile-menu"
+     class="hidden lg:hidden bg-zinc-950 border-t border-zinc-800 shadow-2xl">
+        <div class="flex flex-col space-y-6 py-6 text-center">
+          <a href="#inicio" class="text-white transition hover:text-yellow-400"> Inicio </a>
+
+          <a href="#menu" class="text-white transition hover:text-yellow-400"> Menú </a>
+
+          <a href="#galeria" class="text-white transition hover:text-yellow-400"> Galería </a>
+
+          <a href="#nosotros" class="text-white transition hover:text-yellow-400"> Nosotros </a>
+
+          <a href="#contacto" class="text-white transition hover:text-yellow-400"> Contacto </a>
+
+          <a href="https://wa.me/50488788753" target="_blank" class="mx-auto rounded-full bg-green-600 px-6 py-3 font-bold transition hover:bg-green-700"> Pedir por WhatsApp </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="inicio" class="flex min-h-screen items-center">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="relative grid items-center gap-14 lg:grid-cols-2">
+          <!-- Texto -->
+
+          <div class="fade-up">
+            <p class="font-semibold tracking-[5px] text-yellow-400 uppercase"><i class="fa-solid fa-fire text-red-500"></i>
+Bienvenido a</p>
+
+            <h1 class="mt-4 text-5xl leading-tight font-extrabold lg:text-7xl">
+              <span class="text-white"> La Brasa </span>
+
+              <span class="text-yellow-400"> Pajiza </span>
+            </h1>
+
+            <p class="mt-8 text-xl leading-9 text-gray-300">El auténtico sabor del carbón. Disfruta de nuestras parrilladas para compartir y de los mejores platillos preparados al momento.</p>
+
+            <div class="mt-10 flex flex-wrap gap-5">
+              <a href="https://wa.me/50488788753" target="_blank" class="rounded-full bg-green-600 px-8 py-4 font-bold transition hover:bg-green-700"> <i class="fa-brands fa-whatsapp mr-2"></i>
+Pedir por WhatsApp </a>
+
+              <a href="#menu" class="rounded-full border border-yellow-400 px-8 py-4 font-bold transition hover:bg-yellow-400 hover:text-black"> Ver Menú </a>
+            </div>
+          </div>
+
+
+
+<div class="fade-up flex flex-col items-center">
+
+    <!-- Imagen -->
+
+    <img
+        src="imagenes/hero/Parrilla.jpeg"
+        alt="Parrillada"
+        class="rounded-3xl border border-yellow-500/20 shadow-2xl">
+
+</div>
+
+        </div>
+      </div>
+
+      
+    </section>
+    <!-- ====================================================== -->
+    <!--            ¿POR QUÉ ELEGIR LA BRASA PAJIZA?            -->
+    <!-- ====================================================== -->
+
+    <section class="bg-zinc-950 py-24">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="mb-16 text-center">
+          <p class="font-semibold tracking-[5px] text-yellow-400 uppercase">Nuestra Diferencia</p>
+
+          <h2 class="mt-4 text-4xl font-extrabold lg:text-5xl">
+            ¿Por qué elegir
+
+            <span class="text-yellow-400"> La Brasa Pajiza? </span>
+          </h2>
+
+          <p class="mx-auto mt-6 max-w-3xl text-lg text-gray-400">Cada platillo es preparado con pasión para ofrecer una experiencia única llena de sabor.</p>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+          <!-- Tarjeta -->
+
+          <div class="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 transition duration-300 hover:-translate-y-2 hover:border-yellow-400">
+            <div class="mb-6 text-5xl">🔥</div>
+
+            <h3 class="mb-4 text-2xl font-bold">Parrilla al Carbón</h3>
+
+            <p class="text-gray-400">El auténtico sabor del carbón en cada platillo.</p>
+          </div>
+
+          <!-- Tarjeta -->
+
+          <div class="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 transition duration-300 hover:-translate-y-2 hover:border-yellow-400">
+            <div class="mb-6 text-5xl">🥩</div>
+
+            <h3 class="mb-4 text-2xl font-bold">Carnes Frescas</h3>
+
+            <p class="text-gray-400">Ingredientes seleccionados para ofrecer la mejor calidad.</p>
+          </div>
+
+          <!-- Tarjeta -->
+
+          <div class="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 transition duration-300 hover:-translate-y-2 hover:border-yellow-400">
+            <div class="mb-6 text-5xl">👨‍🍳</div>
+
+            <h3 class="mb-4 text-2xl font-bold">Preparación al Momento</h3>
+
+            <p class="text-gray-400">Cada pedido se cocina al momento para conservar todo su sabor.</p>
+          </div>
+
+          <!-- Tarjeta -->
+
+          <div class="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 transition duration-300 hover:-translate-y-2 hover:border-yellow-400">
+            <div class="mb-6 text-5xl">❤️</div>
+
+            <h3 class="mb-4 text-2xl font-bold">Ambiente Familiar</h3>
+
+            <p class="text-gray-400">Un lugar ideal para disfrutar con familia y amigos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!--                PARRILLADAS PARA COMPARTIR              -->
+    <!-- ====================================================== -->
+
+    <section id="menu" class="bg-zinc-950 pb-24">
+      <div class="mx-auto max-w-7xl px-6">
+        <h2 class="mb-12 text-center text-4xl font-bold text-yellow-400">🔥 Parrilladas para Compartir</h2>
+
+        <div class="grid gap-8 lg:grid-cols-3">
+          <!-- ================= PARRILLADA 3-4 PERSONAS ================= -->
+
+          <div class="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 transition duration-300 hover:-translate-y-2 hover:border-yellow-400">
+            <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?q=80&w=1200&auto=format&fit=crop" alt="Parrillada 3 a 4 personas" class="h-64 w-full object-cover" />
+
+            <div class="p-4">
+              <h3 class="mt-6 text-3xl font-bold">Parrillada Familiar</h3>
+
+              <p class="mt-2 text-yellow-400">Para 3 a 4 Personas</p>
+
+              <ul class="mt-8 space-y-2 text-gray-300">
+                <li>🥩 Lomo de Res</li>
+                <li>🐖 Chuleta</li>
+                <li>🍗 Pollo Asado</li>
+                <li>🍌 Tajadas</li>
+                <li>🫘 Frijoles</li>
+                <li>🍅 Chimol</li>
+                <li>🥗 Encurtido</li>
+                <li>🥣 Aderezos de la Casa</li>
+              </ul>
+
+              <p class="mt-8 text-5xl font-extrabold text-yellow-400">L. 600</p>
+
+              <a href="https://wa.me/50488788753?text=Hola,%20quiero%20pedir%20una%20Parrillada%20para%203%20a%204%20personas." target="_blank" class="mt-8 block rounded-xl bg-green-600 py-4 text-center font-bold transition hover:bg-green-700"> Pedir por WhatsApp </a>
+            </div>
+          </div>
+
+          <!-- ================= PARRILLADA 5-6 PERSONAS ================= -->
+
+          <div class="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 transition duration-300 hover:-translate-y-2 hover:border-yellow-400">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1200&auto=format&fit=crop" alt="Parrillada 5 a 6 personas" class="h-64 w-full object-cover" />
+
+            <div class="p-8">
+              <h3 class="text-3xl font-bold">Parrillada Familiar</h3>
+
+              <p class="mt-2 text-yellow-400">Para 5 a 6 Personas</p>
+              <span class="rounded-full bg-red-600 px-3 py-1 text-sm font-semibold text-white"> ⭐ Más Pedida </span>
+
+              <ul class="mt-6 space-y-2 text-gray-300">
+                <li>🥩 Lomo de Res</li>
+                <li>🐖 Chuleta</li>
+                <li>🍗 Pollo Asado</li>
+                <li>🍌 Tajadas</li>
+                <li>🫘 Frijoles</li>
+                <li>🍅 Chimol</li>
+                <li>🥗 Encurtido</li>
+                <li>🥣 Aderezos de la Casa</li>
+              </ul>
+
+              <p class="mt-8 text-5xl font-extrabold text-yellow-400">L. 900</p>
+
+              <a href="https://wa.me/50488788753?text=Hola,%20quiero%20pedir%20una%20Parrillada%20para%205%20a%206%20personas." target="_blank" class="mt-8 block rounded-xl bg-green-600 py-4 text-center font-bold transition hover:bg-green-700"> Pedir por WhatsApp </a>
+            </div>
+          </div>
+
+          <!-- ================= PARRILLADA 7-10 PERSONAS ================= -->
+
+          <div class="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 transition duration-300 hover:-translate-y-2 hover:border-yellow-400">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop" alt="Parrillada 7 a 10 personas" class="h-64 w-full object-cover" />
+
+            <div class="p-8">
+              <h3 class="text-3xl font-bold">Parrillada Familiar</h3>
+
+              <p class="mt-2 text-yellow-400">Para 7 a 10 Personas</p>
+
+              <ul class="mt-10 space-y-2 text-gray-300">
+                <li>🥩 Lomo de Res</li>
+                <li>🐖 Chuleta</li>
+                <li>🍗 Pollo Asado</li>
+                <li>🥩 Costilla</li>
+                <li>🍌 Tajadas</li>
+                <li>🫘 Frijoles</li>
+                <li>🍅 Chimol</li>
+                <li>🥗 Encurtido</li>
+                <li>🥣 Aderezos de la Casa</li>
+              </ul>
+
+              <p class="mt-3 text-5xl font-extrabold text-yellow-400">L. 1,600</p>
+
+              <a href="https://wa.me/50488788753?text=Hola,%20quiero%20pedir%20una%20Parrillada%20para%207%20a%2010%20personas." target="_blank" class="mt-7 block rounded-xl bg-green-600 py-4 text-center font-bold transition hover:bg-green-700"> Pedir por WhatsApp </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================================== -->
+    <!--                 PLATOS INDIVIDUALES                    -->
+    <!-- ====================================================== -->
+
+    <section class="bg-black py-24">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="mb-16 text-center">
+          <h2 class="text-4xl font-extrabold lg:text-5xl">🥩 Platos Individuales</h2>
+
+          <p class="mt-4 text-gray-400">Todos nuestros platos incluyen tajadas, frijoles, chimol, encurtido y aderezos de la casa.</p>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+          <!-- Lomo -->
+
+          <div class="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 transition duration-300 hover:border-yellow-400">
+            <img src="imagenes/menu/Res.jpeg" alt="Lomo de Res" class="h-60 w-full object-cover" />
+
+            <div class="p-6">
+              <h3 class="text-3xl font-bold">Lomo de Res</h3>
+              <span class="rounded-full bg-red-600 px-3 py-1 text-sm font-semibold text-white"> ⭐ Más Pedida </span>
+
+              <p class="mt-4 text-4xl font-extrabold text-yellow-400">L. 210</p>
+
+              <a href="https://wa.me/50488788753?text=Hola,%20quiero%20pedir%20un%20Lomo%20de%20Res." target="_blank" class="mt-6 block rounded-xl bg-green-600 py-3 text-center font-bold hover:bg-green-700"> Pedir por WhatsApp </a>
+            </div>
+          </div>
+
+          <!-- Chuleta -->
+
+          <div class="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 transition duration-300 hover:border-yellow-400">
+            <img src="imagenes/menu/Chuleta.jpeg" alt="Chuleta" class="h-60 w-full object-cover" />
+
+            <div class="p-6">
+              <h3 class="text-3xl font-bold">Chuleta</h3>
+
+              <p class="mt-10 text-4xl font-extrabold text-yellow-400">L. 190</p>
+
+              <a href="https://wa.me/50488788753?text=Hola,%20quiero%20pedir%20una%20Chuleta." target="_blank" class="mt-6 block rounded-xl bg-green-600 py-3 text-center font-bold hover:bg-green-700"> Pedir por WhatsApp </a>
+            </div>
+          </div>
+
+          <!-- Pollo -->
+
+          <div class="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 transition duration-300 hover:border-yellow-400">
+            <img src="imagenes/menu/Pollo.jpg" alt="Pollo Asado" class="h-60 w-full object-cover" />
+
+            <div class="p-6">
+              <h3 class="text-3xl font-bold">Pollo Asado</h3>
+
+              <p class="mt-4 text-4xl font-extrabold text-yellow-400">L. 190</p>
+
+              <a href="https://wa.me/50488788753?text=Hola,%20quiero%20pedir%20un%20Pollo%20Asado." target="_blank" class="mt-6 block rounded-xl bg-green-600 py-3 text-center font-bold hover:bg-green-700"> Pedir por WhatsApp </a>
+            </div>
+          </div>
+
+          <!-- Costilla -->
+
+          <div class="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 transition duration-300 hover:border-yellow-400">
+            <img src="imagenes/menu/Costilla.jpeg" alt="Costilla" class="h-60 w-full object-cover" />
+
+            <div class="p-6">
+              <h3 class="text-3xl font-bold">Costilla Bbq</h3>
+
+              <p class="mt-4 text-4xl font-extrabold text-yellow-400">L. 210</p>
+
+              <a href="https://wa.me/50488788753?text=Hola,%20quiero%20pedir%20una%20Costilla." target="_blank" class="mt-6 block rounded-xl bg-green-600 py-3 text-center font-bold hover:bg-green-700"> Pedir por WhatsApp </a>
+            </div>
+          </div>
+
+          <!-- Carne Molida -->
+
+          <div class="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 transition duration-300 hover:border-yellow-400">
+            <img src="imagenes/menu/CarneM.jpeg" alt="Carne Molida" class="h-60 w-full object-cover" />
+
+            <div class="p-6">
+              <h3 class="text-3xl font-bold">Carne Molida</h3>
+
+              <p class="mt-4 text-4xl font-extrabold text-yellow-400">L. 90</p>
+
+              <a href="https://wa.me/50488788753?text=Hola,%20quiero%20pedir%20Carne%20Molida." target="_blank" class="mt-6 block rounded-xl bg-green-600 py-3 text-center font-bold hover:bg-green-700"> Pedir por WhatsApp </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================================== -->
+    <!--                        EXTRAS                          -->
+    <!-- ====================================================== -->
+
+    <section class="bg-zinc-950 py-24">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="mb-16 text-center">
+          <h2 class="text-4xl font-extrabold lg:text-5xl">🌭 Extras</h2>
+
+          <p class="mt-4 text-gray-400">Complementa tu comida con nuestro delicioso chorizo parrillero.</p>
+        </div>
+
+        <div class="mx-auto max-w-md">
+          <div class="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 transition duration-300 hover:-translate-y-2 hover:border-yellow-400">
+            <img src="imagenes/menu/Chorizo.jpeg" alt="Chorizo Parrillero" class="h-64 w-full object-cover" />
+
+            <div class="p-8">
+              <h3 class="text-3xl font-bold">Chorizo Parrillero</h3>
+
+              <p class="mt-3 text-gray-400">Precio por unidad.</p>
+
+              <p class="mt-6 text-5xl font-extrabold text-yellow-400">L. 40</p>
+
+              <a href="https://wa.me/50488788753?text=Hola,%20quiero%20pedir%20un%20Chorizo%20Parrillero." target="_blank" class="mt-8 block rounded-xl bg-green-600 py-4 text-center font-bold hover:bg-green-700"> Pedir por WhatsApp </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================= GALERÍA ================= -->
+
+    <section id="galeria" class="bg-black py-24">
+      <div class="mx-auto max-w-7xl px-6">
+        <h2 class="mb-4 text-center text-5xl font-black text-yellow-400">📸 Nuestra Galería</h2>
+
+        <p class="mb-14 text-center text-lg text-gray-400">Cada platillo sale recién preparado y listo para sorprenderte.</p>
+
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Imagen 1 -->
+          <!-- Imagen 1 -->
+          <div class="group relative cursor-pointer overflow-hidden rounded-3xl shadow-2xl">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" class="h-80 w-full object-cover transition duration-700 group-hover:scale-110" />
+
+            <!-- Capa oscura -->
+            <div class="absolute inset-0 bg-black/60 opacity-0 transition duration-500 group-hover:opacity-100"></div>
+
+            <!-- Información -->
+            <div class="absolute right-0 bottom-0 left-0 translate-y-full p-6 transition duration-500 group-hover:translate-y-0">
+              <h3 class="text-2xl font-bold text-yellow-400">Parrilladas Premium</h3>
+
+              <p class="mt-2 text-white">Carnes seleccionadas, cocinadas al carbón con el auténtico sabor de La Brasa Pajiza.</p>
+            </div>
+          </div>
+
+          <!-- Imagen 2 -->
+          <div class="group overflow-hidden rounded-3xl shadow-2xl">
+            <img src="imagenes/parrilla2.jpg" class="h-80 w-full object-cover transition duration-700 group-hover:scale-110 group-hover:brightness-110" />
+          </div>
+
+          <!-- Imagen 3 -->
+          <div class="group overflow-hidden rounded-3xl shadow-2xl">
+            <img src="imagenes/parrilla3.jpg" class="h-80 w-full object-cover transition duration-700 group-hover:scale-110 group-hover:brightness-110" />
+          </div>
+
+          <!-- Imagen 4 -->
+          <div class="group overflow-hidden rounded-3xl shadow-2xl">
+            <img src="imagenes/parrilla4.jpg" class="h-80 w-full object-cover transition duration-700 group-hover:scale-110 group-hover:brightness-110" />
+          </div>
+
+          <!-- Imagen 5 -->
+          <div class="group overflow-hidden rounded-3xl shadow-2xl">
+            <img src="imagenes/parrilla5.jpg" class="h-80 w-full object-cover transition duration-700 group-hover:scale-110 group-hover:brightness-110" />
+          </div>
+
+          <!-- Imagen 6 -->
+          <div class="group overflow-hidden rounded-3xl shadow-2xl">
+            <img src="imagenes/parrilla6.jpg" class="h-80 w-full object-cover transition duration-700 group-hover:scale-110 group-hover:brightness-110" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!--                 HORARIO DE ATENCIÓN                    -->
+    <!-- ====================================================== -->
+
+    <section class="bg-zinc-950 py-24">
+      <div class="mx-auto max-w-4xl px-6">
+        <div class="rounded-3xl border border-yellow-500 bg-zinc-900 p-12 text-center">
+          <h2 class="text-5xl font-extrabold text-yellow-400">🕒 Horario</h2>
+
+          <p class="mt-8 text-3xl font-bold">Jueves a Domingo</p>
+
+          <p class="mt-4 text-2xl text-gray-300">6:00 PM - 10:00 PM</p>
+
+          <p class="mt-8 text-gray-400">¡Te esperamos para disfrutar del auténtico sabor del carbón!</p>
+        </div>
+      </div>
+    </section>
+    <!-- ================= SOBRE NOSOTROS ================= -->
+
+    <section id="nosotros" class="bg-zinc-950 py-24">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="grid items-center gap-16 lg:grid-cols-2">
+          <!-- Imagen -->
+
+          <div class="relative">
+            <img src="imagenes/galeria/NuestraH.jpeg" class="w-full rounded-3xl shadow-2xl" />
+
+            <!-- Decoración -->
+            <div class="absolute -right-6 -bottom-6 rounded-2xl bg-yellow-400 px-6 py-4 text-black shadow-xl">
+              <p class="text-3xl font-black">🔥</p>
+
+              <p class="font-bold">Sabor a la Parrilla</p>
+            </div>
+          </div>
+
+          <!-- Texto -->
+
+          <div>
+            <h2 class="mb-8 text-5xl font-black text-yellow-400">Nuestra Historia</h2>
+
+            <p class="mb-6 text-lg leading-8 text-gray-300">
+              En <span class="font-semibold text-yellow-400">La Brasa Pajiza</span>
+              creemos que una buena parrillada es mucho más que una comida: es un momento para compartir con la familia, los amigos y crear recuerdos inolvidables.
+            </p>
+
+            <p class="mb-6 text-lg leading-8 text-gray-300">Cada corte de carne se prepara con dedicación, utilizando ingredientes frescos y el auténtico sabor de la parrilla, para ofrecer una experiencia que nuestros clientes siempre quieran repetir.</p>
+
+            <p class="text-lg leading-8 text-gray-300">Nuestro compromiso es brindar un ambiente acogedor, excelente atención y platillos preparados con pasión, porque sabemos que los mejores momentos siempre comienzan alrededor de una buena parrilla.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!--                     UBICACIÓN                          -->
+    <!-- ====================================================== -->
+
+    <section id="contacto" class="bg-black py-24">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="mb-16 text-center">
+          <p class="font-semibold tracking-[5px] text-yellow-400 uppercase">Encuéntranos</p>
+
+          <h2 class="mt-4 text-5xl font-extrabold">Visítanos</h2>
+
+          <p class="mt-6 text-gray-400">Estamos listos para atenderte con el auténtico sabor del carbón.</p>
+        </div>
+
+        <div class="grid gap-12 lg:grid-cols-2">
+          <!-- Información -->
+
+          <div class="rounded-3xl border border-zinc-800 bg-zinc-900 p-10">
+            <h3 class="mb-8 text-3xl font-bold text-yellow-400">Información</h3>
+
+            <div class="space-y-6 text-lg">
+              <p>
+                📍 <strong>Dirección:</strong><br />
+                Pinalejo, frente al Instituto Dr. Miguel Paz Barahona.
+              </p>
+
+              <p>
+                📞 <strong>Teléfono:</strong><br />
+                +504 8878-8753
+              </p>
+
+              <p>
+                📞 <strong>Teléfono:</strong><br />
+                +504 9263-6680
+              </p>
+
+              <p>
+                🕒 <strong>Horario:</strong><br />
+                Jueves a Domingo<br />
+                6:00 PM - 10:00 PM
+              </p>
+            </div>
+
+            <a href="https://wa.me/50488788753" target="_blank" class="mt-10 inline-block rounded-full bg-green-600 px-8 py-4 font-bold transition hover:bg-green-700"> Pedir por WhatsApp </a>
+          </div>
+
+          <!-- Google Maps -->
+
+          <div class="overflow-hidden rounded-3xl border border-yellow-500">
+            <iframe src="https://www.google.com/maps?q=Pinalejo,Honduras&output=embed" width="100%" height="500" style="border:0;" loading="lazy"> </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!--                       FOOTER                           -->
+    <!-- ====================================================== -->
+
+    <footer class="border-t border-zinc-800 bg-zinc-950">
+      <div class="mx-auto max-w-7xl px-6 py-12">
+        <div class="grid gap-10 md:grid-cols-3">
+          <div>
+            <h3 class="text-2xl font-bold text-yellow-400">La Brasa Pajiza</h3>
+
+            <p class="mt-4 leading-8 text-gray-400">El auténtico sabor del carbón. Parrilladas y carnes asadas preparadas al momento.</p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold text-yellow-400">Horario</h3>
+
+            <p class="mt-4 text-gray-400">Jueves a Domingo</p>
+
+            <p class="text-gray-400">6:00 PM - 10:00 PM</p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold text-yellow-400">Contáctanos</h3>
+
+            <p class="mt-4 text-gray-400">📞 +504 8878-8753</p>
+
+            <p class="text-gray-400">📞 +504 9263-6680</p>
+          </div>
+        </div>
+
+        <div class="mt-10 border-t border-zinc-800 pt-8 text-center text-gray-500">©️ 2026 La Brasa Pajiza • Todos los derechos reservados.</div>
+      </div>
+    </footer>
+
+    <!-- ================= LIGHTBOX ================= -->
+
+    <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/90 backdrop-blur-sm">
+      <!-- Botón cerrar -->
+      <button class="absolute top-8 right-8 text-5xl text-white transition hover:text-yellow-400">✕</button>
+
+      <!-- Imagen -->
+      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1400&q=80" class="max-h-[85vh] max-w-[90%] rounded-3xl shadow-[0_0_60px_rgba(255,180,0,.4)]" />
+    </div>
+    <!--========================================-->
+    <!--        BOTONES FLOTANTES              -->
+    <!--========================================-->
+
+    <div class="fixed right-6 bottom-6 z-50 flex flex-col gap-4">
+      <!-- WhatsApp -->
+      <a href="https://wa.me/50488788753" target="_blank" class="group flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-3xl shadow-2xl transition duration-300 hover:scale-110 hover:bg-green-600">
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span class="absolute right-20 rounded-xl bg-black px-4 py-2 whitespace-nowrap text-white opacity-0 transition group-hover:opacity-100"> Escríbenos </span>
+      </a>
+
+      <!-- Llamar -->
+      <a href="tel:+50488788753" class="group flex h-16 w-16 items-center justify-center rounded-full bg-yellow-400 text-3xl text-black shadow-2xl transition duration-300 hover:scale-110 hover:bg-yellow-300">
+        <i class="fa-solid fa-phone"></i>
+
+        <span class="absolute right-20 rounded-xl bg-black px-4 py-2 whitespace-nowrap text-white opacity-0 transition group-hover:opacity-100"> Llámanos </span>
+      </a>
+    </div>
+<script src="js/script.js"></script>
+  </body>
+</html>
